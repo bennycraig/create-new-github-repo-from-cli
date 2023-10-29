@@ -1,4 +1,4 @@
-# Instructions to create a new Github repo from the command line using 'gh'
+# Instructions to create a new Github repo from the command line
 
 ### Installation and configuration
 - brew install gh
@@ -13,12 +13,12 @@
 - mkdir my-new-repo
 - cd my-new-repo
 - git init
-- gh repo create <repository-name> --public --source=.
+- gh repo create {repository-name} --public --source=.
 
 ### Add files and push
 - git add .
 - git commit -m "Initial commit"
-- git push
+- git push --set-upstream origin main
 
 ### Check repository online
 - gh repo view --web
